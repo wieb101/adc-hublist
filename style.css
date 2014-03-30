@@ -1,0 +1,122 @@
+
+
+p 	{
+	color:  #000000; 
+	font: 12px arial, courier, serif; 
+	margin: 1px 1px 1px 1px;
+	}
+
+p.bold	{
+	font-weight: bold;
+	}
+
+p.red	{
+	color: #FF0000;
+	text-align: right;
+	}
+
+p.center	{
+	text-align: center;
+	}
+	
+p.right		{
+	text-align: right;
+	}
+
+h1 	{	
+	color: #000000; 
+	font: bold 36px arial, courier, serif;
+	}
+	
+h1.white {
+	color: #FFFFFF;
+	margin: 20px 1px 20px 1px;
+	}
+
+h2 	{	
+	color: #000000; 
+	font: bold 14px arial, courier, serif;
+	}
+
+h2.center	{
+	text-align: center;
+	}
+
+body 	{	
+	background-color: #FFFFFF;
+	}	
+
+a {
+	font: 12px arial, courier, serif; 
+}
+
+A:link 	{	
+	color: #0066CC;
+	text-decoration: none;
+	}
+
+A:visited {	
+	color: #0066CC;
+	text-decoration: none;
+	}
+
+A:active 	{
+	color: #0066CC;
+	text-decoration: none;
+	}
+
+A:hover 	{
+	color: #000000;
+	text-decoration: none
+	}
+	
+td {
+	border: outset 0pt; 
+	padding: 0.0cm 0.0cm;
+}
+
+td.detail	{
+	border-width: 0;
+	width: 25%;		
+	}
+
+td.name 	{
+	border-width: 0;
+	width: 29%;	
+	}
+
+td.address {
+	border-width: 0;
+	width: 58%;
+	}
+
+td.name 	{
+	width: 11%;
+	}
+
+td.input 	{
+	width: 52%
+	}
+
+td.help 	{
+	width: 37%;
+	}
+
+table	{ 
+		border: outset 1pt; 
+		border-style: dashed;
+		border-collapse: separate;
+		border-color: #CCCCCC;
+		width: 100%;
+		border-bottom-width: 1px;
+		}
+	
+form 	{
+		margin-top: 2px;
+		}
+
+img	{
+	border: 0;
+	}
+
+	

@@ -1,0 +1,91 @@
+- TODO
+
+	- localize the submit button
+	- check the pinger, it seems that it doesn't count offlines 
+	- make stuff to be in more seperate files ( modules )
+	- improve the pinger so it handles more hubs and ISTA's
+	- improve the CSS with comments and see if i can build a different style
+	- fix the language tag in the <head> of each html
+	- generate graphics each x hours.
+	- admin features
+		- ban hub
+
+- check if hub table is empty don't run checkhub if so. ( error and link to add hub )
+- add a check for php4.0 for xml functions. ( error to low php version, link php.net )
+
+
+version 1.32 - release date: 
+	- Changed login etc. to ADC client and hub in ADC.php
+	- Changed BINF is now sended before receiving IINF of hub, so that it is compatible
+	  to quickdc hub, works with the other hubs also. (Dj_offset)
+	- Added hubid to checkhub.php, so hubs can be checked manually too.
+	- Updated all pages to w3c transitional.	
+
+
+version 1.31 - release date: 20 mei 2006
+	- Changed Database related functions moved to db.php
+	- Added Language file fi.php (Gadget)
+	- Added id, pid and version as configurable values in config.php
+	- Changed the VE value to ADCHublist<version> instead of "emulating" dc++
+
+
+version 1.3 - release date: 7 mei 2006
+	- Updated the pinger is now compatible with draft 0.10.
+	- Added escaping of strings before updated in database.
+
+
+version 1.23 - release date: 15 jan 2006
+	- Added multi language capabilities.
+	- Added uk (english) language file, corrections are welcome, this is also the default language.
+	- Added header.php this file contain now the db connection and language magic.
+	- Added Dutch language file nl.php and be.php (Jove)
+	- Added Svensk språkfil (Pretorian)
+	- Added Norwegian bokmål language file (Jan)
+	- Added German language file (Farcry)
+	- Added HTTP_ACCEPT_LANGUAGE is used to determine the language of the user.
+	- Removed unused table.paranoid entry in css file.
+
+
+version 1.22 - release date: 4 jan 2006
+	- Added new set of flags, considerably more then we had (Magy)
+	- commented some experimental code for more detailed graphs out of checkhub.php
+	- Added stats.php, a page that has general statistics about the hublist (Magy)
+	- Using as value for the VE field now : VE++\s0.674
+	- Reduced amount of queries considerbly and made them more generic of the general stat page (stats.php)
+	- Added offline stats grouped by kind of hub
+	- link added to index.php to the general stat page
+	- removed listing links from the general stat page and added a return link
+	- [libchart] removed poweredby logo from the charts.
+	- [libchart] removed the aqua background, borders from piechart, they are white now.
+	- added online/offline kind of hubs piechart to the general stat page.
+	- added online/offline country piechart to the general stat page.
+	- Changed country piechart so that it shows full country names.
+	- Removed raw data from stats.php and added values behind the names in the legend.
+	- Added Unknown to the hub pie.
+	- Added unresolved to the country pie.
+	- Pies of general stats are now ordered on amount. 
+
+
+Version 1.21 - release date: 13 dec 2005
+	- Added iceland flag (gif)
+	- Updated the hub.sql file, last version still had the old one. (Magy)
+	
+
+Version 1.2 - release date: 10 dec 2005
+	- Rewrote checkhub routine, more simple/stable.
+	- Fixed bug #5837 with extra check on rows.
+	- Added XML and XMLBZ2 list generation compat to dc++
+	- Changed <?php tags so it uses less echo and more tags, layout is viewable
+	  now with editors.
+	- Changed hublist.php to index.php
+
+
+Version 1.1 - release date: 13 nov 2005
+	- Changed Adress+Port is identified as unique hub, instead of just the adress.
+	- Fixed The submit hub stuff was broken  Some of the conditions were wrong.
+
+
+version 1.0 - release date: 10 jul 2005
+	- initial.
+
+
